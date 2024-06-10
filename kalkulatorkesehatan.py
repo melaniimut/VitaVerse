@@ -95,7 +95,7 @@ elif selected == "Siklus Menstruasi":
         next_period_date = last_period_date + timedelta(days=cycle_length)
         st.write(f"Tanggal perkiraan menstruasi berikutnya: {next_period_date.strftime('%d-%m-%Y')}")
 
-elif selected == "Perkiraan Kebutuhan Kalori":
+elif selected == "Kebutuhan Kalori":
     st.title("Perkiraan Kebutuhan Kalori Per Hari")
     st.subheader("Menghitung kebutuhan kalori harian Anda")
 
